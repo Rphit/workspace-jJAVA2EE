@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add A New League</title>
+
+<link rel="stylesheet" href="./Css/style.css"  />
+<script type="text/javascript" src="javascript/app.js"></script>
+</head>
+
+</head>
+<body>
+	<form action="controller.do" method="post">
+		<table id="table-1">
+		
+			<tbody>
+				<tr>
+					<td>Customer name</td>
+					<td>
+						
+						<input  name="cName" required placeholder="Customer Name" type="text"/>
+					</td>
+					
+				</tr>
+					<tr>
+					<td>Address</td>
+					<td>
+						
+						<input  name="cAddress" required placeholder="address" type="text"/>
+					</td>
+					
+				</tr>
+				<tr>
+					<td>Item List</td>
+					<td>
+						<select name="item">
+							<option value="select">Select...</option>
+							<option value="phone">Redmi phone</option>
+							<option value="laptop">Laptop</option>
+							<option value="tablet">Tablet</option>
+						</select>
+					</td>
+					
+				</tr>
+			
+				<tr>
+					
+					<td>
+						
+						<input    type="submit" value="Add Customer"  />
+					</td>
+					
+				</tr>
+			</tbody>
+			
+		</table>
+	
+	
+	</form>
+</body>
+</html>
